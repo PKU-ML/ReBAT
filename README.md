@@ -1,6 +1,6 @@
 # Balance, Imbalance, and Rebalance: Understanding Robust Overfitting from a Minimax Game Perspective
 
-This is the official PyTorch implementation of our ReBAT (ReBalanced Adversarial Training) algorithm proposed in NeurIPS 2023 paper [Balance, Imbalance, and Rebalance: Understanding Robust Overfitting from a Minimax Game Perspective](arXiv link...), by *Yifei Wang\*, Liangchen Li\*, Jiansheng Yang, Zhouchen Lin and Yisen Wang*.
+This is the official PyTorch implementation of the **ReBAT (ReBalanced Adversarial Training)** algorithm proposed in our NeurIPS 2023 paper [Balance, Imbalance, and Rebalance: Understanding Robust Overfitting from a Minimax Game Perspective](arXiv link...), by *Yifei Wang\*, Liangchen Li\*, Jiansheng Yang, Zhouchen Lin and Yisen Wang*.
 
 ## Requirements
 
