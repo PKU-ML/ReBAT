@@ -1,15 +1,11 @@
 # Balance, Imbalance, and Rebalance: Understanding Robust Overfitting from a Minimax Game Perspective
 
-This is the official PyTorch implementation of our ReBAT (ReBalanced Adversarial Training) algorithm proposed in our NeurIPS 2023 paper [Balance, Imbalance, and Rebalance: Understanding Robust Overfitting from a Minimax Game Perspective](arXiv link...).
-
-------
+This is the official PyTorch implementation of our ReBAT (ReBalanced Adversarial Training) algorithm proposed in NeurIPS 2023 paper [Balance, Imbalance, and Rebalance: Understanding Robust Overfitting from a Minimax Game Perspective](arXiv link...), by *Yifei Wang\*, Liangchen Li\*, Jiansheng Yang, Zhouchen Lin and Yisen Wang*.
 
 ## Requirements
 
 - Our code is compatiable with PyTorch 2.0.0.
 - Please install [AutoAttack](https://arxiv.org/abs/2003.01690) of version 0.2.4 through their official [codebase](https://github.com/fra31/auto-attack) instead of directly using pip install (or you will have version 0.2.3 and may encounter a runtime problem).
-
-------
 
 ## Training
 
@@ -56,8 +52,6 @@ CUDA_VISIBLE_DEVICES=0 python3 train_cifar_wa.py --val \
 	--cutmix
 ```
 
-------
-
 ## Evaluation
 
 Evaluate a PreActResNet-18 model on CIFAR-10:
@@ -77,8 +71,6 @@ CUDA_VISIBLE_DEVICES=0 python3 train_cifar_wa.py --eval \
 	--model WideResNet \
 	--resume 200
 ```
-
-------
 
 ## Citation
 
