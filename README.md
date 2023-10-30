@@ -5,7 +5,7 @@ This is the official PyTorch implementation of the **ReBAT (ReBalanced Adversari
 ## Requirements
 
 - Our code is compatiable with PyTorch 2.0.0.
-- Please install [AutoAttack](https://arxiv.org/abs/2003.01690) of version 0.2.4 through their official [codebase](https://github.com/fra31/auto-attack) instead of directly using pip install (or you will have version 0.2.3 and may encounter a runtime problem).
+- Please install [AutoAttack](https://arxiv.org/abs/2003.01690) of version 0.2.4 from their official [codebase](https://github.com/fra31/auto-attack) instead of directly using pip install (or you will have version 0.2.3 and may encounter a runtime problem).
 
 ## Training
 
