@@ -78,7 +78,7 @@ parser.add_argument('--restarts', default=1, type=int)
 parser.add_argument('--pgd-alpha', default=2, type=float)
 parser.add_argument('--norm', default='l_inf', type=str, choices=['l_inf', 'l_2'])
 
-# stronger attacker for ReBAT[strong]
+# stronger attacker for ReBAT++
 parser.add_argument('--stronger-attack', action='store_true')
 parser.add_argument('--stronger-epsilon', default=10, type=int)
 parser.add_argument('--stronger-attack-iters', default=12, type=int)
