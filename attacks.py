@@ -196,9 +196,9 @@ class AttackerPolymer:
         adversary = AutoAttack(model, norm='Linf', eps=self.epsilon, version='standard', verbose=False)
         if attacks_to_run:
             adversary.attacks_to_run = attacks_to_run
-            x_adv = adversary.run_standard_evaluation_individual(img, gt, bs=len(img))[attacks_to_run[0]]
+            x_adv = adversary.run_standard_evaluation_individual(img.float(), gt, bs=len(img))[attacks_to_run[0]]
         else:
-            x_adv = adversary.run_standard_evaluation(img, gt, bs=len(img))
+            x_adv = adversary.run_standard_evaluation(img.float(), gt, bs=len(img))
         if return_acc:
             adv_pred = model(x_adv)
             adv_acc = torch_accuracy(adv_pred, gt, (1,))
