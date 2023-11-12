@@ -30,7 +30,7 @@ Train a PreActResNet-18 model on CIFAR-10 with ReBAT++:
 
 ```python
 CUDA_VISIBLE_DEVICES=0 python3 train_cifar_wa.py --val \
-	--fname cifar10_res18_strong \
+	--fname cifar10_res18_pp \
 	--model PreActResNet18 \
 	--chkpt-iters 10 \
 	--lr-factor 1.7 \
