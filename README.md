@@ -72,6 +72,10 @@ CUDA_VISIBLE_DEVICES=0 python3 train_cifar_wa.py --eval \
 	--resume 200
 ```
 
+## Checkpoint Release
+
+We provide both best and last checkpoints under several experiment settings on [Google Drive](https://drive.google.com/drive/folders/1pUIt-C0_bPpBf6QrsR2qfFyUR227UwqW?usp=share_link). Please download and place the subfolders under ./exps/ for evaluation.
+
 ## Citation
 
 Please cite our paper if you find our work useful.
