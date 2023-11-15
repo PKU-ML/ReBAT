@@ -1,10 +1,10 @@
 # Balance, Imbalance, and Rebalance: Understanding Robust Overfitting from a Minimax Game Perspective
 
-This is the official PyTorch implementation of the **ReBAT (ReBalanced Adversarial Training)** algorithm proposed in our NeurIPS 2023 paper [Balance, Imbalance, and Rebalance: Understanding Robust Overfitting from a Minimax Game Perspective](https://arxiv.org/abs/2310.19360), by *Yifei Wang\*, Liangchen Li\*, Jiansheng Yang, Zhouchen Lin and Yisen Wang*.
+This is the official PyTorch implementation of the **ReBAT (ReBalanced Adversarial Training)** algorithm proposed in our NeurIPS 2023 paper [Balance, Imbalance, and Rebalance: Understanding Robust Overfitting from a Minimax Game Perspective](https://arxiv.org/abs/2310.19360), by *[Yifei Wang](yifeiwang77.com)\*, Liangchen Li\*, Jiansheng Yang, Zhouchen Lin and Yisen Wang*.
 
 ## Requirements
 
-- Our code is compatiable with PyTorch 2.0.0.
+- Our code is compatible with PyTorch 2.0.0.
 - Please install [AutoAttack](https://arxiv.org/abs/2003.01690) from their official [codebase](https://github.com/fra31/auto-attack).
 
 ## Training
